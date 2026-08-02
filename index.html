@@ -214,6 +214,8 @@
     min-height:200px;
     display:flex; flex-direction:column; justify-content:space-between;
     position:relative;
+    text-decoration:none;
+    cursor:pointer;
     transition:background 0.4s ease;
   }
   .socket:hover{ background:var(--panel); }
@@ -228,7 +230,7 @@
   .socket .name{
     font-family:'Space Grotesk', sans-serif;
     font-size:1.15rem;
-    color:var(--paper-dim);
+    color:var(--paper);
     margin-top:10px;
   }
   .socket .status{
@@ -319,30 +321,30 @@
         <span class="num">03 / 04</span>
       </div>
       <div class="grid reveal">
-        <div class="socket">
+        <a class="socket" href="https://lumiereai.me/" target="_blank" rel="noopener">
           <div>
             <div class="pin"></div>
             <div class="id mono">SLOT — 01</div>
-            <div class="name">Awaiting module</div>
+            <div class="name">Lumiere AI</div>
           </div>
-          <div class="status mono">PENDING</div>
-        </div>
-        <div class="socket">
+          <div class="status mono">LIVE</div>
+        </a>
+        <a class="socket" href="https://bluesync.zerog125.workers.dev" target="_blank" rel="noopener">
           <div>
             <div class="pin"></div>
             <div class="id mono">SLOT — 02</div>
-            <div class="name">Awaiting module</div>
+            <div class="name">Bluesync</div>
           </div>
-          <div class="status mono">PENDING</div>
-        </div>
-        <div class="socket">
+          <div class="status mono">LIVE</div>
+        </a>
+        <a class="socket" href="https://dr-engie.zerog125.workers.dev" target="_blank" rel="noopener">
           <div>
             <div class="pin"></div>
             <div class="id mono">SLOT — 03</div>
-            <div class="name">Awaiting module</div>
+            <div class="name">Dr. Engie</div>
           </div>
-          <div class="status mono">PENDING</div>
-        </div>
+          <div class="status mono">LIVE</div>
+        </a>
       </div>
     </section>
   </main>
